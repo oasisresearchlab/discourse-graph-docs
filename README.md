@@ -1,6 +1,6 @@
 # 🏠 Welcome!
 
-The Discourse Graph extension enables Roam users to seamlessly add additional semantic structure to their notes, including specified page types and link types that [model scientific discourse](fundamentals/what-is-a-discourse-graph.md), to enable more complex and structured [knowledge synthesis work](https://oasislab.pubpub.org/pub/54t0y9mk/release/3), such as a complex interdisciplinary literature review, and enhanced collaboration with others on this work.
+The Discourse Graph extension enables [Roam](https://roamresearch.com) users to seamlessly add additional semantic structure to their notes, including specified page types and link types that [model scientific discourse](fundamentals/what-is-a-discourse-graph.md), to enable more complex and structured [knowledge synthesis work](https://oasislab.pubpub.org/pub/54t0y9mk/release/3), such as a complex interdisciplinary literature review, and enhanced collaboration with others on this work.
 
 ## Overview
 
