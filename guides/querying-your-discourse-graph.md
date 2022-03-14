@@ -4,7 +4,7 @@
 **More detailed instructions coming soon!**
 {% endhint %}
 
-Basic: use Command Palette to access the query drawer.
+Basic: use Command Palette (⌘+`P` on Mac,`CTRL`+ `P` otherwise) to access the query drawer.
 
 Quick demo:
 
