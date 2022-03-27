@@ -4,7 +4,9 @@
 **More detailed instructions coming soon!**
 {% endhint %}
 
-Basic: use Command Palette (⌘+`P` on Mac,`CTRL`+ `P` otherwise) to access the query drawer.
+The query drawer component allows you to construct structured queries over your discourse graph, based on discourse relations (e.g., "find all evidence that supports/opposes a claim"), and reason over the results in a structured, tabular format (e.g., "find all evidence that supports a claim, and allow me to filter/sort by methodological details").&#x20;
+
+Use Command Palette (⌘+`P` on Mac,`CTRL`+ `P` otherwise) to access the query drawer.
 
 Quick demo:
 
