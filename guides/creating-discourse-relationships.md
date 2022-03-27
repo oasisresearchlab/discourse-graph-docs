@@ -14,6 +14,10 @@ Go into a question page.&#x20;
 
 Create a block, and reference an evidence page.
 
+Like this:
+
+![](<../.gitbook/assets/CleanShot 2022-03-26 at 21.57.06.png>)
+
 The system now formally recognizes that this piece of evidence **informs** the question (and equivalently, the question is **informed by** that evidence)!
 
 You can verify this by checking the [discourse context](exploring-your-discourse-graph/discourse-context.md) of the question or the evidence page.
@@ -28,6 +32,10 @@ Indent a block underneath the claim block. And reference the page `[[SupportedBy
 
 Indent a block underneath the connecting block. And reference an evidence page.
 
+Like this:
+
+![](<../.gitbook/assets/CleanShot 2022-03-26 at 21.57.25.png>)
+
 The system now formally recognizes that this piece of evidence **supports** that claim (and equivalently, the claim is **supported by** that evidence)!
 
 You can verify this by checking the [discourse context](exploring-your-discourse-graph/discourse-context.md) of the claim or the evidence page.
@@ -41,6 +49,10 @@ Create a block anywhere, and reference a claim page. We'll call this the claim b
 Indent a block underneath the claim block. And reference the page `[[OpposedBy]]`. We'll call this the connecting block.
 
 Indent a block underneath the connecting block. And reference an evidence page.
+
+Like this:
+
+![](<../.gitbook/assets/CleanShot 2022-03-26 at 21.57.49.png>)
 
 The system now formally recognizes that this piece of evidence **opposes** that claim (and equivalently, the claim is **opposed by** that evidence)!
 
