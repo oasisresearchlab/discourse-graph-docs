@@ -6,7 +6,7 @@ The Discourse Graph extension enables [Roam](https://roamresearch.com) users to 
 
 Here is a relatively brief walkthrough of some of the main features of the extension, including creating discourse nodes and relations, and [using](guides/exploring-your-discourse-graph/), [querying](guides/querying-your-discourse-graph.md), and [sharing](guides/sharing-your-discourse-graph.md) the discourse graph. This is done in the context of an actual ongoing literature review.
 
-{% embed url="https://www.loom.com/share/2ec80422301c451b888b65ee1d283b40" %}
+[https://www.loom.com/share/2ec80422301c451b888b65ee1d283b40](https://www.loom.com/share/2ec80422301c451b888b65ee1d283b40)
 
 ## Guides: Jump right in
 
