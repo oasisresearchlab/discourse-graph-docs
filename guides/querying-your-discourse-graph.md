@@ -18,7 +18,7 @@ Use Command Palette (⌘+`P` on Mac,`CTRL`+ `P` otherwise) to access the query d
 
 ![](<../.gitbook/assets/CleanShot 2022-04-01 at 21.40.17.png>)
 
-A query drawer component will open from the left. From there, you can construct structured queries of your discourse graph and explore their results in a tabular format.![](../.gitbook/assets/sorting-filtering-query-results.gif)
+A query drawer component will open from the left. From there, you can construct structured queries of your discourse graph and explore their results in a tabular format.
 
 ![](<../.gitbook/assets/CleanShot 2022-04-01 at 21.41.02@2x.png>)
 
