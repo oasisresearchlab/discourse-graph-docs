@@ -17,3 +17,5 @@ Detailed instructions coming soon!
 For now, here is a quick demo video of creating an incredibly useful "consistent with" relation pattern that recognizes when any pair of evidence both supports the same thing, implying that they are consistent with each other.
 
 {% embed url="https://www.loom.com/share/cb9e526a98764e95a459a6db2b66e46a" %}
+
+To extend the grammar, it will likely be useful to [learn more about the fundamentals of the extension's grammar and how it works](../fundamentals/the-discourse-graph-extension-grammar/).
