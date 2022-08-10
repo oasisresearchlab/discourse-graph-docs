@@ -37,7 +37,8 @@
 
 ## Extras
 
-* [Experimental features](extras/experimental-features.md)
+* [Experimental features](extras/experimental-features/README.md)
+  * [Playground](extras/experimental-features/playground.md)
 * [Keyboard Shortcuts](extras/keyboard-shortcuts.md)
 * [CSS](extras/css.md)
 
