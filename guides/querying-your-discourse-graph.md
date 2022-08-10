@@ -66,15 +66,17 @@ Results (note: will display "blank" for nodes that lack values for the selected 
 
 ![](<../.gitbook/assets/CleanShot 2022-04-02 at 00.01.22@2x.png>)
 
-### Select discourse relations to display as attributes of results
+### Select discourse attributes to display as attributes of results
 
-Example: find all claims and display the number of `Supported By --> Evidence` relations each one has. The syntax for specifying number of discourse relations as a select is`<relation_name>-<relation_target>`.
+If you have defined [discourse-attributes.md](exploring-your-discourse-graph/discourse-attributes.md "mention") for the node you want to query, you can select it as a column in your query. The syntax for accessing a node's discourse attribute as a select is`discourse:discourseAttributeName`.
 
-![](<../.gitbook/assets/CleanShot 2022-04-02 at 00.04.00@2x.png>)
+Example: find all claims and display their "Evidence" discourse attributes (number of supporting evidence relations) as a column.&#x20;
+
+![](<../.gitbook/assets/CleanShot 2022-08-10 at 09.33.43@2x.png>)
 
 Results:
 
-![](<../.gitbook/assets/CleanShot 2022-04-02 at 00.04.28@2x.png>)
+![](<../.gitbook/assets/CleanShot 2022-08-10 at 09.34.36@2x.png>)
 
 ## Sorting/filtering a query's results
 

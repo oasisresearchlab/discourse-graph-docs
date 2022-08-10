@@ -10,6 +10,7 @@
 * [Exploring your discourse graph](guides/exploring-your-discourse-graph/README.md)
   * [Discourse context](guides/exploring-your-discourse-graph/discourse-context.md)
   * [Discourse context overlay](guides/exploring-your-discourse-graph/discourse-context-overlay.md)
+  * [Discourse attributes](guides/exploring-your-discourse-graph/discourse-attributes.md)
   * [Node index](guides/exploring-your-discourse-graph/node-index.md)
 * [Querying your discourse graph](guides/querying-your-discourse-graph.md)
 * [Extending and personalizing your discourse graph](guides/extending-and-personalizing-your-discourse-graph.md)
