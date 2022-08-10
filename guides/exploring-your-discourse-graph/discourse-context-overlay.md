@@ -22,11 +22,7 @@ For example, the following score display denotes that the node participates in 5
 
 
 
-You can think of this default discourse score as a rough sense of how "robust" a given node is (discourse relations are more structured, high-signal relationships) relative to how "important" it is (raw references are often noisy).
-
-#### Discourse attributes
-
-
+You can think of this default discourse score as a rough sense of how "robust" a given node is (discourse relations are more structured, high-signal relationships) relative to how "important" it is (raw references are often noisy). If you'd like, you can also experiment with different functions of discourse relations to a node by defining your own [discourse-attributes.md](discourse-attributes.md "mention"), and have them show up in the overlay!
 
 Slightly old video demo:
 
