@@ -4,6 +4,8 @@
 
 ### Evidence informs question
 
+![](<../../.gitbook/assets/CleanShot 2022-08-10 at 10.16.23@2x.png>)
+
 This basically says, if you reference an evidence page in a question page, then the evidence `informs` the question, and the question is `informed by` the evidence.
 
 ### Evidence supports claim
