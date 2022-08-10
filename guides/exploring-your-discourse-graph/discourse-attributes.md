@@ -1,6 +1,6 @@
 # Discourse attributes
 
-You can define discourse attributes that for each discourse node, which compute a numerical "score" for each instance of the node based on its discourse relations to other nodes. In the extension, we call these discourse attributes.&#x20;
+You can define discourse attributes that for each discourse node, which compute a numerical "score" for each instance of the node based on its discourse relations to other nodes. In the extension, we call these **discourse attributes**.&#x20;
 
 These attributes can be handy for sorting/querying nodes. For instance, if you create a discourse attribute for Claim nodes that is a function of the number of Evidence nodes that Support the Claim, like this:
 
@@ -20,7 +20,7 @@ Note: unfortunately atm you cannot edit the name of the attribute in the UI afte
 
 ### Basic discourse relation functions
 
-A discourse attribute consists of one or more **discourse functions**, joined by . You can think of the discourse functions as variables that get their value from some discourse relations the node participates in.&#x20;
+A discourse attribute consists of one or more **discourse functions**, joined by one or more math operations. You can think of the discourse functions as variables that get their value from some discourse relations the node participates in.&#x20;
 
 Here is the template for each discourse function: `{count:relationName:targetType}`
 
@@ -38,7 +38,7 @@ You can use basic math operations to combine multiple discourse functions. For e
 
 `{count:Supported By:Evidence} + {count:Supported By:Claim}*0.5 - {count:Opposed By:Evidence} - {count:Opposed By:Claim}*0.5`
 
-This function sums up the number of supporting relations and subtracts the number of opposing relations, but gives only half weight to supporting/opposing relations from Claims.
+This function sums up the number of supporting relations and subtracts the number of opposing relations, but gives only half weight (`*0.5`) to supporting/opposing relations from Claims.
 
 ### `Compound discourse functions`
 
@@ -48,4 +48,18 @@ For example, if a Claim that only gets direct support from other Claims (e.g., b
 
 If each Claim node has a discourse attribute called Evidence that looks like this:
 
-{count:Supported By:Evidence} - {count:Opposed By:Evidence}
+`{count:Supported By:Evidence} - {count:Opposed By:Evidence}`
+
+We can define a compound discourse function that _averages_ over the Evidence attribute of Claims that support the Claim. Like this:
+
+`{average:Supported By:Claim:Evidence}`
+
+The syntax for these compound discourse functions is:
+
+`{operation:relationName:targetType:targetDiscourseAttribute}`
+
+This generalizes the syntax for the basic discourse functions by adding a discourse attribute to access from the targets, and the option of using additional operations than `count` (for now, we only support `sum` and `average`) for the function.
+
+{% hint style="danger" %}
+Note: due to Roam's API limitations, if you have a large graph, computing these compound attributes can get quite expensive, so you may experience slowness in performance, especially if you also use these attributes in the [discourse-context-overlay.md](discourse-context-overlay.md "mention"). Hopefully when Roam releases their backend API we can make this more performant!
+{% endhint %}
