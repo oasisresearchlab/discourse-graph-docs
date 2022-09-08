@@ -16,21 +16,29 @@ You can pan (by click-dragging) and zoom (w/ mouse wheel) the canvas.
 
 <figure><img src="../../.gitbook/assets/playground_panzoom.gif" alt=""><figcaption></figcaption></figure>
 
-You can call up the Roam sidebar or [query drawer](../../guides/querying-your-discourse-graph.md) (works best when playground is maximized). You can insert results into the canvas from the query drawer by ctrl+clicking on individual results or clicking on the "+" (insert results) button in the query drawer.
+You can call up the Roam sidebar or [query drawer](../../guides/querying-your-discourse-graph.md) (works best when playground is maximized). You can insert results into the canvas from the query drawer by ctrl+clicking on individual results or clicking on the "+" (insert results) button in the query drawer to bulk insert all results currently in view. _Note: the query drawer keeps track of what's already on the canvas, so only results that aren't already on the canvas are displayed._
 
 <figure><img src="../../.gitbook/assets/playground_querydrawersidebar.gif" alt=""><figcaption></figcaption></figure>
 
 ### Node function modes
 
-In the top left are node function modes that you can switch between.&#x20;
+Dragging nodes to reposition them works as you might expect on any canvas.
 
-**Normal**: in this mode, you can create new nodes on the playground by clicking on an empty space, or select and move nodes.
+<figure><img src="../../.gitbook/assets/CleanShot 2022-09-08 at 12.21.31.gif" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.33.30.gif>)
+Clicking on an empty space always creates a new node (depending on what node type is selected as active). The **node picker** allows you to control, in normal mode, what type of node you create when you create a new node.
 
-You can also activate this mode with the hotkey combination `CMD+n` (Mac) or `CTRL+n` (windows)
+![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.44.05.gif>)
 
-**Draw edge:** In this mode, you can draw edges between nodes. When this mode is activated, simply click on the node you want to be the _source_, then click on the node you want to be the _target_. You can then click on the label for the edge to select the relation you want.
+There are a few additional "node function" modes that you can switch between to modify what's on the playground.
+
+**Edit**: In this mode, you can edit the text of nodes and edges by clicking on nodes/edges, which will bring up an editing window where you can edit the text.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2022-09-08 at 12.23.30.gif" alt=""><figcaption></figcaption></figure>
+
+You can also activate this mode with the hotkey combination `CMD+e` (Mac) or `CTRL+e` (windows)
+
+**Connect:** In this mode, you can draw edges between nodes. When this mode is activated, simply click on the node you want to be the _source_, then click on the node you want to be the _target_. You can then click on the label for the edge to select the relation you want.
 
 ![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.36.16 (1).gif>)
 
@@ -38,13 +46,13 @@ You can also activate this mode with the hotkey combination `CMD+c` (Mac) or `CT
 
 **Edit:** In this mode, you can edit the text of nodes. Clicking on a node will bring up an editing window where you can edit the text.
 
-![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.38.42.gif>)
+<figure><img src="../../.gitbook/assets/CleanShot 2022-09-08 at 14.51.02.gif" alt=""><figcaption></figcaption></figure>
 
 You can also activate this mode with the hotkey combination `CMD+e` (Mac) or `CTRL+e` (windows)
 
-**Delete:** In this mode, you can delete nodes by clicking on them.&#x20;
+**Delete:** In this mode, you can delete nodes by clicking on them. _Note: there is a version of undo/redo (with the familiar shortcut of CMD/CTRL+z, but with a slight quirk that you need to multiple undo commands to undo a deletion (due to the Roam AlphaAPI and the way we are storing data)._
 
-![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.40.33.gif>)
+<figure><img src="../../.gitbook/assets/CleanShot 2022-09-08 at 14.52.20.gif" alt=""><figcaption></figcaption></figure>
 
 You can also activate this mode with the hotkey combination `CMD+d` (Mac) or `CTRL+d` (windows)
 
@@ -57,10 +65,6 @@ You can also activate this mode with the hotkey combination `CMD+a` (Mac) or `CT
 ### **Canvas functions**
 
 In the top right corner, there are a number of functions you can access for the canvas.
-
-The **node picker** allows you to control, in normal mode, what type of node you create when you create a new node.
-
-![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.44.05.gif>)
 
 The **filter** allows you to filter what node or edge types to show on the canvas (they won't be removed when filtered out, just hidden).
 
@@ -78,13 +82,15 @@ The **overlay** toggles whether nodes on the canvas have the [discourse-context-
 
 ![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.54.38.gif>)
 
-**Draw existing edges** automatically draws any existing edges between nodes on the canvas (currently broken).
+**Draw existing edges** automatically draws any existing edges between nodes on the canvas.
+
+<figure><img src="../../.gitbook/assets/CleanShot 2022-09-08 at 14.55.41.gif" alt=""><figcaption></figcaption></figure>
 
 **Generate Roam blocks** creates a page that contains the nodes on the canvas, in block formats that instantiate any existing relation patterns between nodes on the canvas. The page name will be of the form `Auto generated from <playgroundPageName>`
 
 ![](<../../.gitbook/assets/CleanShot 2022-08-10 at 12.01.13.gif>)
 
-**Export** calls up an export dialog that you can use to [export the nodes to csv/json/markdown](../../guides/sharing-your-discourse-graph.md).
+**Export** calls up an export dialog that you can use to [export](../../guides/exploring-your-discourse-graph/) the nodes and edges currently on the canvas to csv/json/markdown.
 
 ### Use cases
 
