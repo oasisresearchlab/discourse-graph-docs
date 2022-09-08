@@ -2,21 +2,23 @@
 
 We have an experimental visual space for interacting with your discourse graph, called the **Playground**. It's experimental because we aren't quite sure about the core use cases: if you use it and find it useful, we'd love to hear from you!
 
-Here is what the interface looks like:
+### Basic layout and functions
 
-![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.28.08@2x.png>)
+Here is what the interface looks like (this is what shows up on any page that begins with the word "Playground" (e.g., in this example, we are on a page titled "Playground for data on COVID and children"):
+
+<figure><img src="../../.gitbook/assets/CleanShot 2022-09-08 at 12.05.43@2x.png" alt=""><figcaption></figcaption></figure>
 
 You can toggle whether the playground is fullscreen by clicking on the maximize/minimize icon in the top right portion of the menubar.
 
-![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.29.55.gif>)
+<figure><img src="../../.gitbook/assets/playground_minmax.gif" alt=""><figcaption></figcaption></figure>
 
 You can pan (by click-dragging) and zoom (w/ mouse wheel) the canvas.
 
-![](<../../.gitbook/assets/CleanShot 2022-08-10 at 11.51.56.gif>)
+<figure><img src="../../.gitbook/assets/playground_panzoom.gif" alt=""><figcaption></figcaption></figure>
 
-You can call up the Roam sidebar or [query drawer](../../guides/querying-your-discourse-graph.md) while the playground is maximized. You can insert results into the canvas from the query drawer by ctrl+clicking on individual results.
+You can call up the Roam sidebar or [query drawer](../../guides/querying-your-discourse-graph.md) (works best when playground is maximized). You can insert results into the canvas from the query drawer by ctrl+clicking on individual results or clicking on the "+" (insert results) button in the query drawer.
 
-![](<../../.gitbook/assets/CleanShot 2022-08-10 at 12.16.41.gif>)
+<figure><img src="../../.gitbook/assets/playground_querydrawersidebar.gif" alt=""><figcaption></figcaption></figure>
 
 ### Node function modes
 
