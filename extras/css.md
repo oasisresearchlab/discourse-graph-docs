@@ -4,7 +4,7 @@
 
 This works with the stock question nodes that ship with the extension, so it looks like this:
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (3).png>)
 
 Feel free to modify!
 

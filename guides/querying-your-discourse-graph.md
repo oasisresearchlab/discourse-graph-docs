@@ -1,7 +1,7 @@
 # Querying your discourse graph
 
 {% hint style="info" %}
-**Note: a lot of the querying functionality overlaps with the RoamJS query-builder extension, which was spun off from this extension. You might find the documentation for the query-builder helpful for learning how to run queries:** [**https://roamjs.com/extensions/query-builder**](https://roamjs.com/extensions/query-builder)****
+**Note: a lot of the querying functionality overlaps with the RoamJS query-builder extension, which was spun off from this extension. You might find the documentation for the query-builder helpful for learning how to run queries:** [**https://roamjs.com/extensions/query-builder**](https://roamjs.com/extensions/query-builder)
 {% endhint %}
 
 The query drawer component allows you to construct structured queries over your discourse graph, based on discourse relations (e.g., "find all evidence that supports/opposes a claim"), and reason over the results in a structured, tabular format (e.g., "find all evidence that supports a claim, and allow me to filter/sort by methodological details").&#x20;

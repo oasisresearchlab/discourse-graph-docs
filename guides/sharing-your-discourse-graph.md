@@ -22,7 +22,7 @@ Here is a brief explanation of each option:
 * `Frontmatter` specifies what properties to add to the YAML.&#x20;
   * By default, the properties are:
     * `title: {text}`
-    * `url:` [`https://roamresearch.com/#/app/yourGraphName/page/{uid}`](https://roamresearch.com/#/app/roam-synthesis/page/{uid})``
+    * `url:` [`https://roamresearch.com/#/app/yourGraphName/page/{uid}`](https://roamresearch.com/#/app/roam-synthesis/page/{uid})
     * `author: {author}`
     * `date: {date}`
   * You can add properties as key-value pairs in the same format:

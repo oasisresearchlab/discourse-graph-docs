@@ -1,22 +1,46 @@
 # 👷♀ Installation
 
-First create a **block** with the text `{{[[roam/js]]}}` on any page in your Roam DB. Then, create a single child of this block and type three backticks. A code block should appear. Copy this code and paste it into the child code block in your graph:
+Discourse Graphs is part of the Query Builder extension. &#x20;
 
-```javascript
-var existing = document.getElementById("roamjs-discourse-graph-main");
-if (!existing) {
-  var extension = document.createElement("script");
-  extension.src = "https://roamjs.com/discourse-graph/main.js";
-  extension.id = "roamjs-discourse-graph-main";
-  extension.async = true;
-  extension.type = "text/javascript";
-  document.getElementsByTagName("head")[0].appendChild(extension);
-}
-```
+### Install Query Builder
 
-Finally, click **"Yes, I Know What I'm Doing".**
+The Query Builder extension can be installed via Roam Depot:
 
-You'll know installation is successful if you can go to the page `roam/js/discourse-graph`, and see this:
+<div align="left">
 
-![](<.gitbook/assets/CleanShot 2022-03-10 at 01.28.15.png>)
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Toggle Discourse Graphs
+
+After you have installed the Query Builder extension, scroll down to the `Discourse Graphs` toggle and switch it to `on`:
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Verify
+
+You can verify that it was successful by navigating to `roam/js/discourse-graph` and you should see a configuration panel like this:
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
